@@ -68,11 +68,15 @@ Redis เพื่อทำ caching ได้โดย
 
 ```
 PORT=
-DATABASE_URL=postgres://neondb_owner:npg_8mcTLUQsMdh5@ep-polished-dust-a1dv7jhm-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+DATABASE_URL=
 GEMINI_API_KEY=
 ```
 
 Gemini API key ได้มาจาก https://aistudio.google.com/app/apikey
+
+เนื่องจาก database บางส่วนอาจจะต้องกรอกเอง หากสามารถลดความยุ่งยากสามารถใช้ database นี้ได้เลยครับ
+
+postgres://neondb_owner:npg_8mcTLUQsMdh5@ep-polished-dust-a1dv7jhm-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
 
 ### การออกแบบฐานข้อมูล:
 - **Product Table**: ตารางหลักที่ใช้เก็บข้อมูลสินค้า
