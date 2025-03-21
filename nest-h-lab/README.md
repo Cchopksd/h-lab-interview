@@ -68,7 +68,7 @@ Redis เพื่อทำ caching ได้โดย
 
 ```
 PORT=
-DATABASE_URL=
+DATABASE_URL=postgres://neondb_owner:npg_8mcTLUQsMdh5@ep-polished-dust-a1dv7jhm-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
 GEMINI_API_KEY=
 ```
 
