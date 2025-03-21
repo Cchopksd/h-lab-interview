@@ -78,6 +78,16 @@ Gemini API key ได้มาจาก https://aistudio.google.com/app/apikey
 
 postgres://neondb_owner:npg_8mcTLUQsMdh5@ep-polished-dust-a1dv7jhm-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
 
+**โดยภาษาที่รองรับเป็นจีนและอังกฤษ**
+
+```
+{
+    "name": "หูฟังไร้สาย",
+    "language": ["ch", "en"],
+    "description": "หูฟังไร้สายคุณภาพสูงพร้อมระบบตัดเสียงรบกวน"
+}
+```
+
 ### การออกแบบฐานข้อมูล:
 - **Product Table**: ตารางหลักที่ใช้เก็บข้อมูลสินค้า
 - **Language Table**: ตารางที่เก็บภาษาที่ต้องการให้มีในระบบ
